@@ -1,4 +1,4 @@
-module github/aizk/excelize-genie
+module github.com/aizk/excelize-genie
 
 go 1.18
 
