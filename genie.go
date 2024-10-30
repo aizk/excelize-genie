@@ -82,3 +82,7 @@ func (g *Genie) GetIndexSheetRows(index int) (rows [][]string, err error) {
 func (g *Genie) GetFirstSheetRows() (rows [][]string, err error) {
 	return g.GetIndexSheetRows(1)
 }
+
+func (g *Genie) SaveAs(name string, opts ...Options) (err error) {
+	return g.File.SaveAs(name, opts...)
+}
